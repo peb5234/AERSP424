@@ -1,0 +1,10 @@
+^C:\USERS\PBACH\ONEDRIVE\DESKTOP\SCHOOLWORK\FALL24\AERSP424\HWS\PROGRESS CHECK WEEK 6\RUNNINNG_TESTS\BUILD\CMAKEFILES\7C4E8ED0A2AF2A3547ED5B5AA5B5F886\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/pbach/OneDrive/Desktop/SchoolWork/Fall24/AERSP424/HWs/Progress Check Week 6/Runninng_tests" "-BC:/Users/pbach/OneDrive/Desktop/SchoolWork/Fall24/AERSP424/HWs/Progress Check Week 6/Runninng_tests/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/pbach/OneDrive/Desktop/SchoolWork/Fall24/AERSP424/HWs/Progress Check Week 6/Runninng_tests/build/Week_6.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
